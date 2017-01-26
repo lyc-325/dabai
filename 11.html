@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+     <div>
+		<canvas id="canvas" style="1px solid #ddd;display: block;margin:40px auto;"></canvas>
+     </div>
+	<script type="text/javascript">
+		window.onload=function () {
+			 var canvas = document.getElementById("canvas");
+
+              canvas.width =33;
+              canvas.height =62;
+                var context = canvas.getContext('2d');
+                context.moveTo(0,0);
+                context.lineTo(33,31);
+                context.lineTo(0,62);
+                context.lineWidth=2;
+                context.strokeStyle="#058"
+                context.stroke();
+
+       
+         
+
+
+
+		
+		}
+	</script>
+	<div>
+</body>
+</html>
